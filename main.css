@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+}
+
+header {
+    background-color: rgb(166, 213, 254);
+    padding-top: 16px;
+}
+
+header h1 {
+    font-size: 42px;
+    text-align: center;
+    background-color: rgb(166, 213, 254);
+    align-items: center;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 4px;
+    width: 100%;
+    background-color:#000;
+    display: block;
+    margin-bottom: 4px; 
+    display: flex;
+    margin-left: 10px;
+}
+
+.container-jquery {
+    display: flex;
+    align-items: center;
+    background-color: rgb(166, 213, 254);
+    justify-content: space-between;
+    margin: 0 380px;
+    padding-bottom: 16px;
+}
+
+button {
+    text-align: center;
+    padding: 8px 32px;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+form {
+    text-align: center;
+    background-color: teal;
+    display: none;
+}
+
+.form-campo label {
+    display: block;
+    font-size: 24px;
+}
+
+input {
+    text-align: center;
+    width: 360px;
+    height: 32px;
+}
+
+footer {
+    background-color: rgb(166, 213, 254);
+}
+
+#carousel-imagens {
+    width: 33,33%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    max-height: 180px;
+}

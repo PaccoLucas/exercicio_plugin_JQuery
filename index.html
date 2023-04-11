@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício plugins JQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+            <div class=".container container-jquery">
+                <h1>Formulario JQuery</h1>
+                <div class="menu-hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+    </header>
+    <form>
+        <div class="form-campo">
+            <label for="nome">Nome completo:</label>
+            <input type="text" placeholder="Insira seu nome completo" name="nome" id="nome">
+        </div>
+        <div class="form-campo">
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="Insira seu melhor E-mail" name="email" id="email">
+        </div>
+        <div class="form-campo">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" placeholder="Insira seu numero com ddd" name="telefone" id="telefone">
+        </div>
+        <div class="form-campo">
+            <label for="cpf">CPF:</label>
+            <input type="text" placeholder="000.000.000-00" name="cpf" id="cpf">
+        </div>
+        <div class="form-campo">
+            <label for="endereço">Endereço completo:</label>
+            <input type="text" placeholder="Exemplo: Rua João Damasio N°00" name="endereço" id="endereço">
+        </div>
+        <div class="form-campo">
+            <label for="cep">CEP:</label>
+            <input type="text" placeholder="00000-000" name="cep" id="cep">
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+    <div class="imagens-carrousel">
+        <div id="carousel-imagens">
+            <img src="./images/slich.png" alt="">
+            <img src="./images/R.jpeg" alt="">
+            <img src="./images/jquery-logo-4.png" alt="">
+            <img src="./images/OIP.jpeg" alt="">
+        </div>
+    </div>
+    <footer>
+        <p>
+            2023 &copy; Formulario JQuery - todos os direitos reservados
+        </p>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
