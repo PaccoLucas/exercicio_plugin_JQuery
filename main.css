@@ -88,8 +88,8 @@ footer {
 }
 
 #carousel-imagens {
-    width: 33,33%;
+    width: 100vw;
     overflow-y: hidden;
     overflow-x: hidden;
-    max-height: 180px;
+    height: 13vw;
 }
