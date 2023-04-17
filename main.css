@@ -9,12 +9,6 @@ html {
     overflow-x: hidden;
 }
 
-.container {
-    max-width: 1280px;
-    width: 100%;
-    display: flex;
-}
-
 header {
     background-color: rgb(166, 213, 254);
     padding-top: 16px;
