@@ -87,7 +87,7 @@ footer {
     background-color: rgb(166, 213, 254);
 }
 
-#carousel-imagens {
+#carousel-imagens img {
     width: 100vw;
     overflow-y: hidden;
     overflow-x: hidden;
